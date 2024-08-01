@@ -552,3 +552,252 @@ There are 1 unused configuration paths:
 [0m14:00:40.485647 [debug] [MainThread]: Command `dbt run` succeeded at 14:00:40.485499 after 5.61 seconds
 [0m14:00:40.486120 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef883709d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef8cb68ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef8da312a0>]}
 [0m14:00:40.486599 [debug] [MainThread]: Flushing usage events
+[0m14:26:07.857830 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9faa35c9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9faceefb20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9faceee770>]}
+
+
+============================== 14:26:07.864884 | d6d0cf2e-8f87-4c3e-b771-b4fb17bf37fd ==============================
+[0m14:26:07.864884 [info ] [MainThread]: Running with dbt=1.5.3
+[0m14:26:07.865623 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/wazi/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/wazi/Downloads/fivetran_demo_rag/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:26:10.218454 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd6d0cf2e-8f87-4c3e-b771-b4fb17bf37fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9faceed420>]}
+[0m14:26:10.233234 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd6d0cf2e-8f87-4c3e-b771-b4fb17bf37fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9fb1213550>]}
+[0m14:26:10.234264 [info ] [MainThread]: Registered adapter: bigquery=1.5.9
+[0m14:26:10.264857 [debug] [MainThread]: checksum: d91324b50612e0c4823cec6657ec795d80c11aba9d5b50e83fb26de63277dec4, vars: {}, profile: , target: , version: 1.5.3
+[0m14:26:10.278302 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m14:26:10.279111 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'd6d0cf2e-8f87-4c3e-b771-b4fb17bf37fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9fb11ccf40>]}
+[0m14:26:11.164452 [debug] [MainThread]: 1699: static parser successfully parsed single_string_winery_review_vector.sql
+[0m14:26:11.222854 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd6d0cf2e-8f87-4c3e-b771-b4fb17bf37fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9fb12fab90>]}
+[0m14:26:11.224853 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd6d0cf2e-8f87-4c3e-b771-b4fb17bf37fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9faa546950>]}
+[0m14:26:11.225469 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 358 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m14:26:11.225947 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd6d0cf2e-8f87-4c3e-b771-b4fb17bf37fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9fb153fd00>]}
+[0m14:26:11.227372 [info ] [MainThread]: 
+[0m14:26:11.228210 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m14:26:11.229308 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_iamtests-315719_fivetran_demo_rag_agriculture'
+[0m14:26:11.229817 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:26:13.418370 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd6d0cf2e-8f87-4c3e-b771-b4fb17bf37fd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9fb12897b0>]}
+[0m14:26:13.419849 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:26:13.420506 [info ] [MainThread]: 
+[0m14:26:13.429300 [debug] [Thread-1 (]: Began running node model.rag_pre_transform.single_string_winery_review_vector
+[0m14:26:13.430331 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_iamtests-315719_fivetran_demo_rag_agriculture, now model.rag_pre_transform.single_string_winery_review_vector)
+[0m14:26:13.430863 [debug] [Thread-1 (]: Began compiling node model.rag_pre_transform.single_string_winery_review_vector
+[0m14:26:13.433857 [debug] [Thread-1 (]: Writing injected SQL for node "model.rag_pre_transform.single_string_winery_review_vector"
+[0m14:26:13.434952 [debug] [Thread-1 (]: Timing info for model.rag_pre_transform.single_string_winery_review_vector (compile): 14:26:13.431197 => 14:26:13.434618
+[0m14:26:13.435442 [debug] [Thread-1 (]: Began executing node model.rag_pre_transform.single_string_winery_review_vector
+[0m14:26:13.436063 [debug] [Thread-1 (]: Timing info for model.rag_pre_transform.single_string_winery_review_vector (execute): 14:26:13.435751 => 14:26:13.435785
+[0m14:26:13.437349 [debug] [Thread-1 (]: Finished running node model.rag_pre_transform.single_string_winery_review_vector
+[0m14:26:13.438772 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:26:13.439158 [debug] [MainThread]: Connection 'model.rag_pre_transform.single_string_winery_review_vector' was properly closed.
+[0m14:26:13.439974 [debug] [MainThread]: Command end result
+[0m14:26:13.452323 [debug] [MainThread]: Acquiring new bigquery connection 'generate_catalog'
+[0m14:26:13.452774 [info ] [MainThread]: Building catalog
+[0m14:26:13.453471 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:26:14.168746 [debug] [ThreadPool]: Acquiring new bigquery connection 'iamtests-315719.information_schema'
+[0m14:26:14.189947 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:26:14.190928 [debug] [ThreadPool]: On iamtests-315719.information_schema: /* {"app": "dbt", "dbt_version": "1.5.3", "profile_name": "rag_pre_transform", "target_name": "dev", "connection_name": "iamtests-315719.information_schema"} */
+
+    with tables as (
+        select
+            project_id as table_database,
+            dataset_id as table_schema,
+            table_id as original_table_name,
+
+            concat(project_id, '.', dataset_id, '.', table_id) as relation_id,
+
+            row_count,
+            size_bytes as size_bytes,
+            case
+                when type = 1 then 'table'
+                when type = 2 then 'view'
+                else 'external'
+            end as table_type,
+
+            REGEXP_CONTAINS(table_id, '^.+[0-9]{8}$') and coalesce(type, 0) = 1 as is_date_shard,
+            REGEXP_EXTRACT(table_id, '^(.+)[0-9]{8}$') as shard_base_name,
+            REGEXP_EXTRACT(table_id, '^.+([0-9]{8})$') as shard_name
+
+        from `iamtests-315719`.`fivetran_demo_rag_agriculture`.__TABLES__
+        where (upper(dataset_id) = upper('fivetran_demo_rag_agriculture'))
+    ),
+
+    table_options as (
+        select
+            concat(table_catalog, '.', table_schema, '.', table_name) as relation_id,
+            JSON_VALUE(option_value) as table_comment
+
+        from `iamtests-315719`.`fivetran_demo_rag_agriculture`.INFORMATION_SCHEMA.TABLE_OPTIONS
+        where option_name = 'description'
+    ),
+    extracted as (
+
+        select *,
+            case
+                when is_date_shard then shard_base_name
+                else original_table_name
+            end as table_name
+
+        from tables
+
+    ),
+
+    unsharded_tables as (
+
+        select
+            table_database,
+            table_schema,
+            table_name,
+            coalesce(table_type, 'external') as table_type,
+            is_date_shard,
+
+            struct(
+                min(shard_name) as shard_min,
+                max(shard_name) as shard_max,
+                count(*) as shard_count
+            ) as table_shards,
+
+            sum(size_bytes) as size_bytes,
+            sum(row_count) as row_count,
+
+            max(relation_id) as relation_id
+
+        from extracted
+        group by 1,2,3,4,5
+
+    ),
+
+    info_schema_columns as (
+
+        select
+            concat(table_catalog, '.', table_schema, '.', table_name) as relation_id,
+            table_catalog as table_database,
+            table_schema,
+            table_name,
+
+            -- use the "real" column name from the paths query below
+            column_name as base_column_name,
+            ordinal_position as column_index,
+
+            is_partitioning_column,
+            clustering_ordinal_position
+
+        from `iamtests-315719`.`fivetran_demo_rag_agriculture`.INFORMATION_SCHEMA.COLUMNS
+        where ordinal_position is not null
+
+    ),
+
+    info_schema_column_paths as (
+
+        select
+            concat(table_catalog, '.', table_schema, '.', table_name) as relation_id,
+            field_path as column_name,
+            data_type as column_type,
+            column_name as base_column_name,
+            description as column_comment
+
+        from `iamtests-315719`.`fivetran_demo_rag_agriculture`.INFORMATION_SCHEMA.COLUMN_FIELD_PATHS
+
+    ),
+
+    columns as (
+
+        select * except (base_column_name)
+        from info_schema_columns
+        join info_schema_column_paths using (relation_id, base_column_name)
+
+    ),
+
+    column_stats as (
+
+        select
+            table_database,
+            table_schema,
+            table_name,
+            max(relation_id) as relation_id,
+            max(case when is_partitioning_column = 'YES' then 1 else 0 end) = 1 as is_partitioned,
+            max(case when is_partitioning_column = 'YES' then column_name else null end) as partition_column,
+            max(case when clustering_ordinal_position is not null then 1 else 0 end) = 1 as is_clustered,
+            array_to_string(
+                array_agg(
+                    case
+                        when clustering_ordinal_position is not null then column_name
+                        else null
+                    end ignore nulls
+                    order by clustering_ordinal_position
+                ), ', '
+            ) as clustering_columns
+
+        from columns
+        group by 1,2,3
+
+    )
+
+    select
+        unsharded_tables.table_database,
+        unsharded_tables.table_schema,
+        case
+            when is_date_shard then concat(unsharded_tables.table_name, '*')
+            else unsharded_tables.table_name
+        end as table_name,
+        unsharded_tables.table_type,
+        table_options.table_comment,
+
+        -- coalesce name and type for External tables - these columns are not
+        -- present in the COLUMN_FIELD_PATHS resultset
+        coalesce(columns.column_name, '<unknown>') as column_name,
+        -- invent a row number to account for nested fields -- BQ does
+        -- not treat these nested properties as independent fields
+        row_number() over (
+            partition by relation_id
+            order by columns.column_index, columns.column_name
+        ) as column_index,
+        coalesce(columns.column_type, '<unknown>') as column_type,
+        columns.column_comment,
+
+        'Shard count' as `stats__date_shards__label`,
+        table_shards.shard_count as `stats__date_shards__value`,
+        'The number of date shards in this table' as `stats__date_shards__description`,
+        is_date_shard as `stats__date_shards__include`,
+
+        'Shard (min)' as `stats__date_shard_min__label`,
+        table_shards.shard_min as `stats__date_shard_min__value`,
+        'The first date shard in this table' as `stats__date_shard_min__description`,
+        is_date_shard as `stats__date_shard_min__include`,
+
+        'Shard (max)' as `stats__date_shard_max__label`,
+        table_shards.shard_max as `stats__date_shard_max__value`,
+        'The last date shard in this table' as `stats__date_shard_max__description`,
+        is_date_shard as `stats__date_shard_max__include`,
+
+        '# Rows' as `stats__num_rows__label`,
+        row_count as `stats__num_rows__value`,
+        'Approximate count of rows in this table' as `stats__num_rows__description`,
+        (unsharded_tables.table_type = 'table') as `stats__num_rows__include`,
+
+        'Approximate Size' as `stats__num_bytes__label`,
+        size_bytes as `stats__num_bytes__value`,
+        'Approximate size of table as reported by BigQuery' as `stats__num_bytes__description`,
+        (unsharded_tables.table_type = 'table') as `stats__num_bytes__include`,
+
+        'Partitioned By' as `stats__partitioning_type__label`,
+        partition_column as `stats__partitioning_type__value`,
+        'The partitioning column for this table' as `stats__partitioning_type__description`,
+        is_partitioned as `stats__partitioning_type__include`,
+
+        'Clustered By' as `stats__clustering_fields__label`,
+        clustering_columns as `stats__clustering_fields__value`,
+        'The clustering columns for this table' as `stats__clustering_fields__description`,
+        is_clustered as `stats__clustering_fields__include`
+
+    -- join using relation_id (an actual relation, not a shard prefix) to make
+    -- sure that column metadata is picked up through the join. This will only
+    -- return the column information for the "max" table in a date-sharded table set
+    from unsharded_tables
+    left join table_options using (relation_id)
+    left join columns using (relation_id)
+    left join column_stats using (relation_id)
+  
+[0m14:26:17.369102 [debug] [ThreadPool]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=iamtests-315719&j=bq:US:85bb35ea-f9d0-4a6f-8369-6125bcaf53f4&page=queryresults
+[0m14:26:17.416431 [info ] [MainThread]: Catalog written to /Users/wazi/Downloads/fivetran_demo_rag/target/catalog.json
+[0m14:26:17.417514 [debug] [MainThread]: Command `dbt docs generate` succeeded at 14:26:17.417347 after 9.60 seconds
+[0m14:26:17.417893 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m14:26:17.418191 [debug] [MainThread]: Connection 'iamtests-315719.information_schema' was properly closed.
+[0m14:26:17.418635 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9faa35c9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9faa545bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9fb126c400>]}
+[0m14:26:17.419104 [debug] [MainThread]: Flushing usage events
