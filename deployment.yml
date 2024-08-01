@@ -1,5 +1,5 @@
 jobs:
-- name: daily
+- name: create_embedding
   schedule: 0 12 * * * # This example will run every day at 12:00pm
   steps:
      - name: run models
