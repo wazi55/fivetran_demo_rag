@@ -24,3 +24,531 @@ Happy modeling!
 [0m14:11:24.117700 [debug] [MainThread]: Command `dbt init` succeeded at 14:11:24.117558 after 34.12 seconds
 [0m14:11:24.118045 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a7635c9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a76685990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a76687280>]}
 [0m14:11:24.118412 [debug] [MainThread]: Flushing usage events
+[0m13:48:00.710095 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbc549589d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbc567e7df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbc567e5240>]}
+
+
+============================== 13:48:00.716972 | e090aa99-c490-42c8-be49-59276c516bfd ==============================
+[0m13:48:00.716972 [info ] [MainThread]: Running with dbt=1.5.3
+[0m13:48:00.717745 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/wazi/Downloads/fivetran_demo_rag/logs', 'fail_fast': 'False', 'profiles_dir': '/Users/wazi/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:48:00.801219 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "rag_pre_transform", target "dev" invalid: ['dbname'] is not of type 'string'
+[0m13:48:00.802137 [debug] [MainThread]: Command `dbt compile` failed at 13:48:00.801967 after 0.13 seconds
+[0m13:48:00.802565 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbc549589d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbc567da800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbc567da530>]}
+[0m13:48:00.803099 [debug] [MainThread]: Flushing usage events
+[0m13:49:40.493361 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa79cb649d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa79def7be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa79def4fd0>]}
+
+
+============================== 13:49:40.498415 | 1e88a608-159a-4892-b2b0-8fd4e211f744 ==============================
+[0m13:49:40.498415 [info ] [MainThread]: Running with dbt=1.5.3
+[0m13:49:40.499178 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/wazi/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/wazi/Downloads/fivetran_demo_rag/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:49:40.552843 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "rag_pre_transform", target "dev" invalid: ['dbname'] is not of type 'string'
+[0m13:49:40.553738 [debug] [MainThread]: Command `dbt run` failed at 13:49:40.553578 after 0.09 seconds
+[0m13:49:40.554142 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa79cb649d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa79dee5c90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa79dee74f0>]}
+[0m13:49:40.554662 [debug] [MainThread]: Flushing usage events
+[0m13:53:21.366717 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce6aa549d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce6d0e3c70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce6d0e1180>]}
+
+
+============================== 13:53:21.373784 | 92b0040a-9cb6-40ae-ae0c-d616fb20c74f ==============================
+[0m13:53:21.373784 [info ] [MainThread]: Running with dbt=1.5.3
+[0m13:53:21.374641 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/wazi/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/wazi/Downloads/fivetran_demo_rag/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:53:21.381976 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m13:53:21.382780 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "rag_pre_transform", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+[0m13:53:21.383722 [debug] [MainThread]: Command `dbt test` failed at 13:53:21.383532 after 0.06 seconds
+[0m13:53:21.384190 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce6aa549d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce6d0cefe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce6d0cd660>]}
+[0m13:53:21.384756 [debug] [MainThread]: Flushing usage events
+[0m13:53:57.228786 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb9b0b6c9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb9b1fffdc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb9b1fff8b0>]}
+
+
+============================== 13:53:57.234167 | be284132-b770-4d0f-9b2d-ab83556159ee ==============================
+[0m13:53:57.234167 [info ] [MainThread]: Running with dbt=1.5.3
+[0m13:53:57.234918 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/wazi/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': '/Users/wazi/Downloads/fivetran_demo_rag/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:53:57.241794 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m13:53:57.242542 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "rag_pre_transform", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+[0m13:53:57.243469 [debug] [MainThread]: Command `dbt list` failed at 13:53:57.243295 after 0.05 seconds
+[0m13:53:57.243916 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb9b0b6c9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb9b1fe8fa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb9b1fe97b0>]}
+[0m13:53:57.244382 [debug] [MainThread]: Flushing usage events
+[0m13:54:34.124191 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff478b609d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff47a0ef9a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff47a0ed180>]}
+
+
+============================== 13:54:34.129353 | 5611ff78-1284-4e87-b783-fbe71f95e048 ==============================
+[0m13:54:34.129353 [info ] [MainThread]: Running with dbt=1.5.3
+[0m13:54:34.130114 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/wazi/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/wazi/Downloads/fivetran_demo_rag/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:54:34.137366 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m13:54:34.137998 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "rag_pre_transform", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+[0m13:54:34.138928 [debug] [MainThread]: Command `dbt run` failed at 13:54:34.138730 after 0.04 seconds
+[0m13:54:34.139408 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff478b609d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff47a0d9120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff47a0d8d90>]}
+[0m13:54:34.139869 [debug] [MainThread]: Flushing usage events
+[0m13:54:38.421705 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95b6a509d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95b7fdfbb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95b7fdcfa0>]}
+
+
+============================== 13:54:38.427129 | 74da6b90-a9c1-4a34-b320-db42030e9167 ==============================
+[0m13:54:38.427129 [info ] [MainThread]: Running with dbt=1.5.3
+[0m13:54:38.427865 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/wazi/.dbt', 'log_path': '/Users/wazi/Downloads/fivetran_demo_rag/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:54:38.435225 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m13:54:38.435880 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "rag_pre_transform", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+[0m13:54:38.436758 [debug] [MainThread]: Command `dbt build` failed at 13:54:38.436588 after 0.04 seconds
+[0m13:54:38.437190 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95b6a509d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95b7fc9090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95b7fc91e0>]}
+[0m13:54:38.437733 [debug] [MainThread]: Flushing usage events
+[0m13:54:43.415286 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e7835c9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e79eeba30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e79ee9120>]}
+
+
+============================== 13:54:43.420297 | 04654b8a-2573-49db-8b13-d9777b5bb16a ==============================
+[0m13:54:43.420297 [info ] [MainThread]: Running with dbt=1.5.3
+[0m13:54:43.421116 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/wazi/.dbt', 'log_path': '/Users/wazi/Downloads/fivetran_demo_rag/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:54:43.421755 [info ] [MainThread]: Setting up your profile.
+[0m13:54:53.063876 [error] [MainThread]: Encountered an error:
+
+[0m13:54:53.068196 [error] [MainThread]: Traceback (most recent call last):
+  File "/usr/local/anaconda3/lib/python3.10/site-packages/dbt/cli/requires.py", line 86, in wrapper
+    result, success = func(*args, **kwargs)
+  File "/usr/local/anaconda3/lib/python3.10/site-packages/dbt/cli/requires.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/anaconda3/lib/python3.10/site-packages/dbt/cli/main.py", line 459, in init
+    results = task.run()
+  File "/usr/local/anaconda3/lib/python3.10/site-packages/dbt/task/init.py", line 276, in run
+    adapter = self.ask_for_adapter_choice()
+  File "/usr/local/anaconda3/lib/python3.10/site-packages/dbt/task/init.py", line 230, in ask_for_adapter_choice
+    numeric_choice = click.prompt(prompt_msg, type=click.INT)
+  File "/usr/local/anaconda3/lib/python3.10/site-packages/click/termui.py", line 166, in prompt
+    value = prompt_func(prompt)
+  File "/usr/local/anaconda3/lib/python3.10/site-packages/click/termui.py", line 149, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m13:54:53.069485 [debug] [MainThread]: Command `dbt init` failed at 13:54:53.069288 after 9.68 seconds
+[0m13:54:53.069945 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e7835c9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e79eebd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e79eebcd0>]}
+[0m13:54:53.070578 [debug] [MainThread]: Flushing usage events
+[0m13:56:15.375190 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1cd4609d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1cf7ed4e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1cf7ec340>]}
+
+
+============================== 13:56:15.381669 | e9ce011f-a85f-4bb3-92a0-d9a2a527db73 ==============================
+[0m13:56:15.381669 [info ] [MainThread]: Running with dbt=1.5.3
+[0m13:56:15.382435 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/wazi/Downloads/fivetran_demo_rag/logs', 'debug': 'False', 'profiles_dir': '/Users/wazi/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:56:15.383063 [info ] [MainThread]: Setting up your profile.
+[0m13:57:34.128962 [info ] [MainThread]: Profile rag_pre_transform written to /Users/wazi/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:57:34.130712 [debug] [MainThread]: Command `dbt init` succeeded at 13:57:34.130198 after 78.80 seconds
+[0m13:57:34.131210 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1cd4609d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1cf7eef80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff1cf7ed4e0>]}
+[0m13:57:34.131714 [debug] [MainThread]: Flushing usage events
+[0m13:57:41.077621 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f89512609d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f89528efb80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f89528ee8f0>]}
+
+
+============================== 13:57:41.083761 | 074d3d78-3bf5-45cc-b4e1-5e28c46c72b5 ==============================
+[0m13:57:41.083761 [info ] [MainThread]: Running with dbt=1.5.3
+[0m13:57:41.084481 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/wazi/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/wazi/Downloads/fivetran_demo_rag/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:57:43.125765 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '074d3d78-3bf5-45cc-b4e1-5e28c46c72b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f89528eea70>]}
+[0m13:57:43.142835 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '074d3d78-3bf5-45cc-b4e1-5e28c46c72b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8956bf13c0>]}
+[0m13:57:43.144087 [info ] [MainThread]: Registered adapter: bigquery=1.5.9
+[0m13:57:43.176655 [debug] [MainThread]: checksum: d91324b50612e0c4823cec6657ec795d80c11aba9d5b50e83fb26de63277dec4, vars: {}, profile: , target: , version: 1.5.3
+[0m13:57:43.178190 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m13:57:43.178843 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '074d3d78-3bf5-45cc-b4e1-5e28c46c72b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8956bf2170>]}
+[0m13:57:44.078051 [debug] [MainThread]: 1699: static parser successfully parsed single_string_winery_review_vector.sql
+[0m13:57:44.157828 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.rag_pre_transform.example
+[0m13:57:44.164214 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '074d3d78-3bf5-45cc-b4e1-5e28c46c72b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8956d97310>]}
+[0m13:57:44.173381 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '074d3d78-3bf5-45cc-b4e1-5e28c46c72b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8956bf0dc0>]}
+[0m13:57:44.173985 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 358 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m13:57:44.174473 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '074d3d78-3bf5-45cc-b4e1-5e28c46c72b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8956d16c50>]}
+[0m13:57:44.176001 [info ] [MainThread]: 
+[0m13:57:44.177061 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m13:57:44.178316 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_iamtests-315719'
+[0m13:57:44.178813 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:57:46.148336 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_iamtests-315719, now list_iamtests-315719_fivetran_demo_rag_agriculture)
+[0m13:57:46.149685 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m13:57:46.452372 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '074d3d78-3bf5-45cc-b4e1-5e28c46c72b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f89528ef970>]}
+[0m13:57:46.453662 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m13:57:46.454292 [info ] [MainThread]: 
+[0m13:57:46.463586 [debug] [Thread-1 (]: Began running node model.rag_pre_transform.single_string_winery_review_vector
+[0m13:57:46.464310 [info ] [Thread-1 (]: 1 of 1 START sql view model fivetran_demo_rag_agriculture.single_string_winery_review_vector  [RUN]
+[0m13:57:46.465199 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_iamtests-315719_fivetran_demo_rag_agriculture, now model.rag_pre_transform.single_string_winery_review_vector)
+[0m13:57:46.465682 [debug] [Thread-1 (]: Began compiling node model.rag_pre_transform.single_string_winery_review_vector
+[0m13:57:46.468713 [debug] [Thread-1 (]: Writing injected SQL for node "model.rag_pre_transform.single_string_winery_review_vector"
+[0m13:57:46.470207 [debug] [Thread-1 (]: Timing info for model.rag_pre_transform.single_string_winery_review_vector (compile): 13:57:46.466008 => 13:57:46.469878
+[0m13:57:46.470677 [debug] [Thread-1 (]: Began executing node model.rag_pre_transform.single_string_winery_review_vector
+[0m13:57:46.513328 [debug] [Thread-1 (]: Writing runtime sql for node "model.rag_pre_transform.single_string_winery_review_vector"
+[0m13:57:46.514606 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m13:57:46.515170 [debug] [Thread-1 (]: On model.rag_pre_transform.single_string_winery_review_vector: /* {"app": "dbt", "dbt_version": "1.5.3", "profile_name": "rag_pre_transform", "target_name": "dev", "node_id": "model.rag_pre_transform.single_string_winery_review_vector"} */
+
+
+  create or replace view `iamtests-315719`.`fivetran_demo_rag_agriculture`.`single_string_winery_review_vector`
+  OPTIONS()
+  as WITH stg AS (
+       SELECT CONCAT('This winery name is ', IFNULL(WINERY_OR_VINEYARD, ' Name is not known')
+        , '. California wine region: ', IFNULL(CA_WINE_REGION, 'unknown'), ''
+        , ' The AVA Appellation is the ', IFNULL(AVA_APPELLATION_SUB_APPELLATION, 'unknown'), '.'
+        , ' The website associated with the winery is ', IFNULL(WEBSITE, 'unknown'), '.'
+        , ' Price Range: ', IFNULL(PRICE_RANGE, 'unknown'), '.'
+        , ' Tasting Room Hours: ', IFNULL(TASTING_ROOM_HOURS, 'unknown'), '.'
+        , ' Are Reservations Required or Not: ', IFNULL(RESERVATION_REQUIRED, 'unknown'), '.'
+        , ' Winery Description: ', IFNULL(WINERY_DESCRIPTION, 'unknown'), ''
+        , ' The Primary Varietals this winery offers: ', IFNULL(PRIMARY_VARIETALS, 'unknown'), '.'
+        , ' Thoughts on the Tasting Room Experience: ', IFNULL(TASTING_ROOM_EXPERIENCE, 'unknown'), '.'
+        , ' Amenities: ', IFNULL(AMENITIES, 'unknown'), '.'
+        , ' Awards and Accolades: ', IFNULL(AWARDS_AND_ACCOLADES, 'unknown'), '.'
+        , ' Distance Travel Time considerations: ', IFNULL(DISTANCE_AND_TRAVEL_TIME, 'unknown'), '.'
+        , ' User Rating: ', IFNULL(USER_RATING, 'unknown'), '.'
+        , ' The Secondary Varietals for this winery: ', IFNULL(SECONDARY_VARIETALS, 'unknown'), '.'
+        , ' Wine Styles: ', IFNULL(WINE_STYLES, 'unknown'), '.'
+        , ' Events and Activities: ', IFNULL(EVENTS_AND_ACTIVITIES, 'unknown'), '.'
+        , ' Sustainability Practices: ', IFNULL(SUSTAINABILITY_PRACTICES, 'unknown'), '.'
+        , ' Social Media Channels: ', IFNULL(SOCIAL_MEDIA, 'unknown'), ''
+        , ' Address: ', IFNULL(ADDRESS, 'unknown'), ''
+        , ' City: ', IFNULL(CITY, 'unknown'), ''
+        , ' State: ', IFNULL(STATE, 'unknown'), ''
+        , ' ZIP: ', IFNULL(ZIP, 'unknown'), ''
+        , ' Phone: ', IFNULL(PHONE, 'unknown'), ''
+        , ' Winemaker: ', IFNULL(WINEMAKER, 'unknown'), ''
+        , ' Did Kelly Kohlleffel recommend this winery?: ', IFNULL(KELLY_KOHLLEFFEL_RECOMMENDED, 'unknown'), ''
+    ) AS winery_information FROM california_wine_country_visits;
+)
+
+
+            SELECT winery_information, 
+            snowflake.cortex.embed_text('e5-base-v2', winery_information) as WINERY_EMBEDDING 
+            FROM stg;;
+
+
+[0m13:57:46.851301 [debug] [Thread-1 (]: BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('Syntax error: Expected ")" but got ";" at [33:64]; reason: invalidQuery, location: query, message: Syntax error: Expected ")" but got ";" at [33:64]')
+[0m13:57:47.914349 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=iamtests-315719&j=bq:US:464c831d-7219-4962-b867-24e2cadc3852&page=queryresults
+[0m13:57:47.915459 [debug] [Thread-1 (]: Timing info for model.rag_pre_transform.single_string_winery_review_vector (execute): 13:57:46.471053 => 13:57:47.915045
+[0m13:57:47.929141 [debug] [Thread-1 (]: Database Error in model single_string_winery_review_vector (models/single_string_winery_review_vector.sql)
+  Syntax error: Expected ")" but got ";" at [33:64]
+  compiled Code at target/run/rag_pre_transform/models/single_string_winery_review_vector.sql
+[0m13:57:47.929830 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '074d3d78-3bf5-45cc-b4e1-5e28c46c72b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8956d495a0>]}
+[0m13:57:47.930681 [error] [Thread-1 (]: 1 of 1 ERROR creating sql view model fivetran_demo_rag_agriculture.single_string_winery_review_vector  [[31mERROR[0m in 1.46s]
+[0m13:57:47.931472 [debug] [Thread-1 (]: Finished running node model.rag_pre_transform.single_string_winery_review_vector
+[0m13:57:47.933575 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:57:47.933953 [debug] [MainThread]: Connection 'model.rag_pre_transform.single_string_winery_review_vector' was properly closed.
+[0m13:57:47.934337 [info ] [MainThread]: 
+[0m13:57:47.934816 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 3.76 seconds (3.76s).
+[0m13:57:47.935507 [debug] [MainThread]: Command end result
+[0m13:57:47.945891 [info ] [MainThread]: 
+[0m13:57:47.946705 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m13:57:47.947817 [info ] [MainThread]: 
+[0m13:57:47.948348 [error] [MainThread]: [33mDatabase Error in model single_string_winery_review_vector (models/single_string_winery_review_vector.sql)[0m
+[0m13:57:47.949030 [error] [MainThread]:   Syntax error: Expected ")" but got ";" at [33:64]
+[0m13:57:47.949627 [error] [MainThread]:   compiled Code at target/run/rag_pre_transform/models/single_string_winery_review_vector.sql
+[0m13:57:47.950083 [info ] [MainThread]: 
+[0m13:57:47.950710 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m13:57:47.952020 [debug] [MainThread]: Command `dbt run` failed at 13:57:47.951852 after 6.92 seconds
+[0m13:57:47.952778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f89512609d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8956c45ea0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8956bf13c0>]}
+[0m13:57:47.953483 [debug] [MainThread]: Flushing usage events
+[0m13:59:03.861377 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9395c609d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9396ff1600>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9396ff0370>]}
+
+
+============================== 13:59:03.866989 | 241fa8ee-2c6a-4aa9-b92f-b2e5ed2446be ==============================
+[0m13:59:03.866989 [info ] [MainThread]: Running with dbt=1.5.3
+[0m13:59:03.867847 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/wazi/Downloads/fivetran_demo_rag/logs', 'profiles_dir': '/Users/wazi/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:59:06.008078 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '241fa8ee-2c6a-4aa9-b92f-b2e5ed2446be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9396ff29e0>]}
+[0m13:59:06.022581 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '241fa8ee-2c6a-4aa9-b92f-b2e5ed2446be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f939b3ed360>]}
+[0m13:59:06.023559 [info ] [MainThread]: Registered adapter: bigquery=1.5.9
+[0m13:59:06.050207 [debug] [MainThread]: checksum: d91324b50612e0c4823cec6657ec795d80c11aba9d5b50e83fb26de63277dec4, vars: {}, profile: , target: , version: 1.5.3
+[0m13:59:06.114290 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m13:59:06.114893 [debug] [MainThread]: Partial parsing: updated file: rag_pre_transform://models/single_string_winery_review_vector.sql
+[0m13:59:06.138016 [debug] [MainThread]: 1699: static parser successfully parsed single_string_winery_review_vector.sql
+[0m13:59:06.156382 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.rag_pre_transform.example
+[0m13:59:06.162118 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '241fa8ee-2c6a-4aa9-b92f-b2e5ed2446be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f939b5ee110>]}
+[0m13:59:06.170150 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '241fa8ee-2c6a-4aa9-b92f-b2e5ed2446be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f939b56d8d0>]}
+[0m13:59:06.170732 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 358 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m13:59:06.171268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '241fa8ee-2c6a-4aa9-b92f-b2e5ed2446be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f939b56d810>]}
+[0m13:59:06.173047 [info ] [MainThread]: 
+[0m13:59:06.173929 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m13:59:06.175090 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_iamtests-315719'
+[0m13:59:06.175586 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:59:07.643686 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_iamtests-315719, now list_iamtests-315719_fivetran_demo_rag_agriculture)
+[0m13:59:07.645060 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m13:59:07.943532 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '241fa8ee-2c6a-4aa9-b92f-b2e5ed2446be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f939b557f40>]}
+[0m13:59:07.948286 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m13:59:07.950655 [info ] [MainThread]: 
+[0m13:59:08.066841 [debug] [Thread-1 (]: Began running node model.rag_pre_transform.single_string_winery_review_vector
+[0m13:59:08.067862 [info ] [Thread-1 (]: 1 of 1 START sql view model fivetran_demo_rag_agriculture.single_string_winery_review_vector  [RUN]
+[0m13:59:08.069163 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_iamtests-315719_fivetran_demo_rag_agriculture, now model.rag_pre_transform.single_string_winery_review_vector)
+[0m13:59:08.069824 [debug] [Thread-1 (]: Began compiling node model.rag_pre_transform.single_string_winery_review_vector
+[0m13:59:08.072786 [debug] [Thread-1 (]: Writing injected SQL for node "model.rag_pre_transform.single_string_winery_review_vector"
+[0m13:59:08.074040 [debug] [Thread-1 (]: Timing info for model.rag_pre_transform.single_string_winery_review_vector (compile): 13:59:08.070249 => 13:59:08.073662
+[0m13:59:08.074670 [debug] [Thread-1 (]: Began executing node model.rag_pre_transform.single_string_winery_review_vector
+[0m13:59:08.122143 [debug] [Thread-1 (]: Writing runtime sql for node "model.rag_pre_transform.single_string_winery_review_vector"
+[0m13:59:08.123491 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m13:59:08.124521 [debug] [Thread-1 (]: On model.rag_pre_transform.single_string_winery_review_vector: /* {"app": "dbt", "dbt_version": "1.5.3", "profile_name": "rag_pre_transform", "target_name": "dev", "node_id": "model.rag_pre_transform.single_string_winery_review_vector"} */
+
+
+  create or replace view `iamtests-315719`.`fivetran_demo_rag_agriculture`.`single_string_winery_review_vector`
+  OPTIONS()
+  as WITH stg AS (
+       SELECT CONCAT('This winery name is ', IFNULL(WINERY_OR_VINEYARD, ' Name is not known')
+        , '. California wine region: ', IFNULL(CA_WINE_REGION, 'unknown'), ''
+        , ' The AVA Appellation is the ', IFNULL(AVA_APPELLATION_SUB_APPELLATION, 'unknown'), '.'
+        , ' The website associated with the winery is ', IFNULL(WEBSITE, 'unknown'), '.'
+        , ' Price Range: ', IFNULL(PRICE_RANGE, 'unknown'), '.'
+        , ' Tasting Room Hours: ', IFNULL(TASTING_ROOM_HOURS, 'unknown'), '.'
+        , ' Are Reservations Required or Not: ', IFNULL(RESERVATION_REQUIRED, 'unknown'), '.'
+        , ' Winery Description: ', IFNULL(WINERY_DESCRIPTION, 'unknown'), ''
+        , ' The Primary Varietals this winery offers: ', IFNULL(PRIMARY_VARIETALS, 'unknown'), '.'
+        , ' Thoughts on the Tasting Room Experience: ', IFNULL(TASTING_ROOM_EXPERIENCE, 'unknown'), '.'
+        , ' Amenities: ', IFNULL(AMENITIES, 'unknown'), '.'
+        , ' Awards and Accolades: ', IFNULL(AWARDS_AND_ACCOLADES, 'unknown'), '.'
+        , ' Distance Travel Time considerations: ', IFNULL(DISTANCE_AND_TRAVEL_TIME, 'unknown'), '.'
+        , ' User Rating: ', IFNULL(USER_RATING, 'unknown'), '.'
+        , ' The Secondary Varietals for this winery: ', IFNULL(SECONDARY_VARIETALS, 'unknown'), '.'
+        , ' Wine Styles: ', IFNULL(WINE_STYLES, 'unknown'), '.'
+        , ' Events and Activities: ', IFNULL(EVENTS_AND_ACTIVITIES, 'unknown'), '.'
+        , ' Sustainability Practices: ', IFNULL(SUSTAINABILITY_PRACTICES, 'unknown'), '.'
+        , ' Social Media Channels: ', IFNULL(SOCIAL_MEDIA, 'unknown'), ''
+        , ' Address: ', IFNULL(ADDRESS, 'unknown'), ''
+        , ' City: ', IFNULL(CITY, 'unknown'), ''
+        , ' State: ', IFNULL(STATE, 'unknown'), ''
+        , ' ZIP: ', IFNULL(ZIP, 'unknown'), ''
+        , ' Phone: ', IFNULL(PHONE, 'unknown'), ''
+        , ' Winemaker: ', IFNULL(WINEMAKER, 'unknown'), ''
+        , ' Did Kelly Kohlleffel recommend this winery?: ', IFNULL(KELLY_KOHLLEFFEL_RECOMMENDED, 'unknown'), ''
+    ) AS winery_information FROM california_wine_country_visits
+)
+
+
+            SELECT winery_information, 
+            snowflake.cortex.embed_text('e5-base-v2', winery_information) as WINERY_EMBEDDING 
+            FROM stg;;
+
+
+[0m13:59:08.410004 [debug] [Thread-1 (]: BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('Syntax error: Unexpected ";" at [39:22]; reason: invalidQuery, location: query, message: Syntax error: Unexpected ";" at [39:22]')
+[0m13:59:09.067922 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=iamtests-315719&j=bq:US:bc3e3b69-0ca7-4826-a40c-ccc4aa7859e8&page=queryresults
+[0m13:59:09.069013 [debug] [Thread-1 (]: Timing info for model.rag_pre_transform.single_string_winery_review_vector (execute): 13:59:08.075055 => 13:59:09.068688
+[0m13:59:09.083934 [debug] [Thread-1 (]: Database Error in model single_string_winery_review_vector (models/single_string_winery_review_vector.sql)
+  Syntax error: Unexpected ";" at [39:22]
+  compiled Code at target/run/rag_pre_transform/models/single_string_winery_review_vector.sql
+[0m13:59:09.084605 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '241fa8ee-2c6a-4aa9-b92f-b2e5ed2446be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9395e487c0>]}
+[0m13:59:09.085398 [error] [Thread-1 (]: 1 of 1 ERROR creating sql view model fivetran_demo_rag_agriculture.single_string_winery_review_vector  [[31mERROR[0m in 1.02s]
+[0m13:59:09.086070 [debug] [Thread-1 (]: Finished running node model.rag_pre_transform.single_string_winery_review_vector
+[0m13:59:09.088103 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:59:09.088506 [debug] [MainThread]: Connection 'model.rag_pre_transform.single_string_winery_review_vector' was properly closed.
+[0m13:59:09.088898 [info ] [MainThread]: 
+[0m13:59:09.089378 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 2.92 seconds (2.92s).
+[0m13:59:09.090089 [debug] [MainThread]: Command end result
+[0m13:59:09.099155 [info ] [MainThread]: 
+[0m13:59:09.099751 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m13:59:09.100208 [info ] [MainThread]: 
+[0m13:59:09.100764 [error] [MainThread]: [33mDatabase Error in model single_string_winery_review_vector (models/single_string_winery_review_vector.sql)[0m
+[0m13:59:09.101205 [error] [MainThread]:   Syntax error: Unexpected ";" at [39:22]
+[0m13:59:09.101757 [error] [MainThread]:   compiled Code at target/run/rag_pre_transform/models/single_string_winery_review_vector.sql
+[0m13:59:09.102219 [info ] [MainThread]: 
+[0m13:59:09.102695 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m13:59:09.103531 [debug] [MainThread]: Command `dbt run` failed at 13:59:09.103382 after 5.28 seconds
+[0m13:59:09.104010 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9395c609d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f939b3251e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9390995690>]}
+[0m13:59:09.104540 [debug] [MainThread]: Flushing usage events
+[0m14:00:15.376726 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8a6cc709d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8a6e123be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8a6e122950>]}
+
+
+============================== 14:00:15.382613 | b618aed6-8d43-4457-9c86-5c1af5918826 ==============================
+[0m14:00:15.382613 [info ] [MainThread]: Running with dbt=1.5.3
+[0m14:00:15.383431 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/wazi/.dbt', 'log_path': '/Users/wazi/Downloads/fivetran_demo_rag/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:00:17.600603 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b618aed6-8d43-4457-9c86-5c1af5918826', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8a6e122ad0>]}
+[0m14:00:17.617343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b618aed6-8d43-4457-9c86-5c1af5918826', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8a724273a0>]}
+[0m14:00:17.618874 [info ] [MainThread]: Registered adapter: bigquery=1.5.9
+[0m14:00:17.650134 [debug] [MainThread]: checksum: d91324b50612e0c4823cec6657ec795d80c11aba9d5b50e83fb26de63277dec4, vars: {}, profile: , target: , version: 1.5.3
+[0m14:00:17.718878 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m14:00:17.719599 [debug] [MainThread]: Partial parsing: updated file: rag_pre_transform://models/single_string_winery_review_vector.sql
+[0m14:00:17.751413 [debug] [MainThread]: 1699: static parser successfully parsed single_string_winery_review_vector.sql
+[0m14:00:17.775597 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.rag_pre_transform.example
+[0m14:00:17.782347 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b618aed6-8d43-4457-9c86-5c1af5918826', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8a7273e140>]}
+[0m14:00:17.792445 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b618aed6-8d43-4457-9c86-5c1af5918826', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8a726a5900>]}
+[0m14:00:17.793161 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 358 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m14:00:17.793669 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b618aed6-8d43-4457-9c86-5c1af5918826', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8a726a5840>]}
+[0m14:00:17.795594 [info ] [MainThread]: 
+[0m14:00:17.796651 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m14:00:17.798010 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_iamtests-315719'
+[0m14:00:17.798557 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:00:19.193884 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_iamtests-315719, now list_iamtests-315719_fivetran_demo_rag_agriculture)
+[0m14:00:19.194755 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m14:00:19.532532 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b618aed6-8d43-4457-9c86-5c1af5918826', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8a7268feb0>]}
+[0m14:00:19.534000 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:00:19.534708 [info ] [MainThread]: 
+[0m14:00:19.634680 [debug] [Thread-1 (]: Began running node model.rag_pre_transform.single_string_winery_review_vector
+[0m14:00:19.635709 [info ] [Thread-1 (]: 1 of 1 START sql view model fivetran_demo_rag_agriculture.single_string_winery_review_vector  [RUN]
+[0m14:00:19.636726 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_iamtests-315719_fivetran_demo_rag_agriculture, now model.rag_pre_transform.single_string_winery_review_vector)
+[0m14:00:19.637255 [debug] [Thread-1 (]: Began compiling node model.rag_pre_transform.single_string_winery_review_vector
+[0m14:00:19.639801 [debug] [Thread-1 (]: Writing injected SQL for node "model.rag_pre_transform.single_string_winery_review_vector"
+[0m14:00:19.640915 [debug] [Thread-1 (]: Timing info for model.rag_pre_transform.single_string_winery_review_vector (compile): 14:00:19.637576 => 14:00:19.640580
+[0m14:00:19.641403 [debug] [Thread-1 (]: Began executing node model.rag_pre_transform.single_string_winery_review_vector
+[0m14:00:19.683358 [debug] [Thread-1 (]: Writing runtime sql for node "model.rag_pre_transform.single_string_winery_review_vector"
+[0m14:00:19.684436 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:00:19.685044 [debug] [Thread-1 (]: On model.rag_pre_transform.single_string_winery_review_vector: /* {"app": "dbt", "dbt_version": "1.5.3", "profile_name": "rag_pre_transform", "target_name": "dev", "node_id": "model.rag_pre_transform.single_string_winery_review_vector"} */
+
+
+  create or replace view `iamtests-315719`.`fivetran_demo_rag_agriculture`.`single_string_winery_review_vector`
+  OPTIONS()
+  as WITH stg AS (
+       SELECT CONCAT('This winery name is ', IFNULL(WINERY_OR_VINEYARD, ' Name is not known')
+        , '. California wine region: ', IFNULL(CA_WINE_REGION, 'unknown'), ''
+        , ' The AVA Appellation is the ', IFNULL(AVA_APPELLATION_SUB_APPELLATION, 'unknown'), '.'
+        , ' The website associated with the winery is ', IFNULL(WEBSITE, 'unknown'), '.'
+        , ' Price Range: ', IFNULL(PRICE_RANGE, 'unknown'), '.'
+        , ' Tasting Room Hours: ', IFNULL(TASTING_ROOM_HOURS, 'unknown'), '.'
+        , ' Are Reservations Required or Not: ', IFNULL(RESERVATION_REQUIRED, 'unknown'), '.'
+        , ' Winery Description: ', IFNULL(WINERY_DESCRIPTION, 'unknown'), ''
+        , ' The Primary Varietals this winery offers: ', IFNULL(PRIMARY_VARIETALS, 'unknown'), '.'
+        , ' Thoughts on the Tasting Room Experience: ', IFNULL(TASTING_ROOM_EXPERIENCE, 'unknown'), '.'
+        , ' Amenities: ', IFNULL(AMENITIES, 'unknown'), '.'
+        , ' Awards and Accolades: ', IFNULL(AWARDS_AND_ACCOLADES, 'unknown'), '.'
+        , ' Distance Travel Time considerations: ', IFNULL(DISTANCE_AND_TRAVEL_TIME, 'unknown'), '.'
+        , ' User Rating: ', IFNULL(USER_RATING, 'unknown'), '.'
+        , ' The Secondary Varietals for this winery: ', IFNULL(SECONDARY_VARIETALS, 'unknown'), '.'
+        , ' Wine Styles: ', IFNULL(WINE_STYLES, 'unknown'), '.'
+        , ' Events and Activities: ', IFNULL(EVENTS_AND_ACTIVITIES, 'unknown'), '.'
+        , ' Sustainability Practices: ', IFNULL(SUSTAINABILITY_PRACTICES, 'unknown'), '.'
+        , ' Social Media Channels: ', IFNULL(SOCIAL_MEDIA, 'unknown'), ''
+        , ' Address: ', IFNULL(ADDRESS, 'unknown'), ''
+        , ' City: ', IFNULL(CITY, 'unknown'), ''
+        , ' State: ', IFNULL(STATE, 'unknown'), ''
+        , ' ZIP: ', IFNULL(ZIP, 'unknown'), ''
+        , ' Phone: ', IFNULL(PHONE, 'unknown'), ''
+        , ' Winemaker: ', IFNULL(WINEMAKER, 'unknown'), ''
+        , ' Did Kelly Kohlleffel recommend this winery?: ', IFNULL(KELLY_KOHLLEFFEL_RECOMMENDED, 'unknown'), ''
+    ) AS winery_information FROM `iamtests-315719.fivetran_demo_rag_agriculture.california_wine_country_visits`
+)
+
+
+            SELECT winery_information, 
+            -- snowflake.cortex.embed_text('e5-base-v2', winery_information) as WINERY_EMBEDDING 
+            FROM stg;;
+
+
+[0m14:00:20.003006 [debug] [Thread-1 (]: BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('Syntax error: Unexpected ";" at [39:22]; reason: invalidQuery, location: query, message: Syntax error: Unexpected ";" at [39:22]')
+[0m14:00:20.774935 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=iamtests-315719&j=bq:US:e761018d-489a-4cd1-8468-e45d113824bf&page=queryresults
+[0m14:00:20.775917 [debug] [Thread-1 (]: Timing info for model.rag_pre_transform.single_string_winery_review_vector (execute): 14:00:19.641760 => 14:00:20.775616
+[0m14:00:20.789397 [debug] [Thread-1 (]: Database Error in model single_string_winery_review_vector (models/single_string_winery_review_vector.sql)
+  Syntax error: Unexpected ";" at [39:22]
+  compiled Code at target/run/rag_pre_transform/models/single_string_winery_review_vector.sql
+[0m14:00:20.790134 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b618aed6-8d43-4457-9c86-5c1af5918826', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8a71d38040>]}
+[0m14:00:20.791014 [error] [Thread-1 (]: 1 of 1 ERROR creating sql view model fivetran_demo_rag_agriculture.single_string_winery_review_vector  [[31mERROR[0m in 1.15s]
+[0m14:00:20.791676 [debug] [Thread-1 (]: Finished running node model.rag_pre_transform.single_string_winery_review_vector
+[0m14:00:20.793810 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:00:20.794213 [debug] [MainThread]: Connection 'model.rag_pre_transform.single_string_winery_review_vector' was properly closed.
+[0m14:00:20.794587 [info ] [MainThread]: 
+[0m14:00:20.795209 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 3.00 seconds (3.00s).
+[0m14:00:20.795934 [debug] [MainThread]: Command end result
+[0m14:00:20.804444 [info ] [MainThread]: 
+[0m14:00:20.805011 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m14:00:20.805466 [info ] [MainThread]: 
+[0m14:00:20.805910 [error] [MainThread]: [33mDatabase Error in model single_string_winery_review_vector (models/single_string_winery_review_vector.sql)[0m
+[0m14:00:20.806361 [error] [MainThread]:   Syntax error: Unexpected ";" at [39:22]
+[0m14:00:20.806788 [error] [MainThread]:   compiled Code at target/run/rag_pre_transform/models/single_string_winery_review_vector.sql
+[0m14:00:20.807223 [info ] [MainThread]: 
+[0m14:00:20.807687 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m14:00:20.808507 [debug] [MainThread]: Command `dbt run` failed at 14:00:20.808361 after 5.47 seconds
+[0m14:00:20.808986 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8a6cc709d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8a7235d210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8a64f955a0>]}
+[0m14:00:20.809495 [debug] [MainThread]: Flushing usage events
+[0m14:00:34.918177 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef883709d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef896fd600>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef896fc370>]}
+
+
+============================== 14:00:34.924228 | 88ddfbaa-62f5-48d8-aeb1-0534f9ba9c99 ==============================
+[0m14:00:34.924228 [info ] [MainThread]: Running with dbt=1.5.3
+[0m14:00:34.925079 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/wazi/Downloads/fivetran_demo_rag/logs', 'profiles_dir': '/Users/wazi/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:00:37.078435 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '88ddfbaa-62f5-48d8-aeb1-0534f9ba9c99', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef896fe9e0>]}
+[0m14:00:37.095290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '88ddfbaa-62f5-48d8-aeb1-0534f9ba9c99', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef8daf9360>]}
+[0m14:00:37.096787 [info ] [MainThread]: Registered adapter: bigquery=1.5.9
+[0m14:00:37.127617 [debug] [MainThread]: checksum: d91324b50612e0c4823cec6657ec795d80c11aba9d5b50e83fb26de63277dec4, vars: {}, profile: , target: , version: 1.5.3
+[0m14:00:37.197859 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m14:00:37.198541 [debug] [MainThread]: Partial parsing: updated file: rag_pre_transform://models/single_string_winery_review_vector.sql
+[0m14:00:37.228510 [debug] [MainThread]: 1699: static parser successfully parsed single_string_winery_review_vector.sql
+[0m14:00:37.250277 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.rag_pre_transform.example
+[0m14:00:37.256424 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '88ddfbaa-62f5-48d8-aeb1-0534f9ba9c99', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef8deee110>]}
+[0m14:00:37.264749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '88ddfbaa-62f5-48d8-aeb1-0534f9ba9c99', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef8de6d8d0>]}
+[0m14:00:37.265379 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 358 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m14:00:37.265867 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '88ddfbaa-62f5-48d8-aeb1-0534f9ba9c99', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef8de6d810>]}
+[0m14:00:37.267738 [info ] [MainThread]: 
+[0m14:00:37.268711 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m14:00:37.270176 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_iamtests-315719'
+[0m14:00:37.270710 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:00:38.798046 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_iamtests-315719, now list_iamtests-315719_fivetran_demo_rag_agriculture)
+[0m14:00:38.799025 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m14:00:39.102580 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '88ddfbaa-62f5-48d8-aeb1-0534f9ba9c99', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef8de57f40>]}
+[0m14:00:39.103784 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:00:39.104328 [info ] [MainThread]: 
+[0m14:00:39.205326 [debug] [Thread-1 (]: Began running node model.rag_pre_transform.single_string_winery_review_vector
+[0m14:00:39.206243 [info ] [Thread-1 (]: 1 of 1 START sql view model fivetran_demo_rag_agriculture.single_string_winery_review_vector  [RUN]
+[0m14:00:39.207296 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_iamtests-315719_fivetran_demo_rag_agriculture, now model.rag_pre_transform.single_string_winery_review_vector)
+[0m14:00:39.207851 [debug] [Thread-1 (]: Began compiling node model.rag_pre_transform.single_string_winery_review_vector
+[0m14:00:39.210453 [debug] [Thread-1 (]: Writing injected SQL for node "model.rag_pre_transform.single_string_winery_review_vector"
+[0m14:00:39.211548 [debug] [Thread-1 (]: Timing info for model.rag_pre_transform.single_string_winery_review_vector (compile): 14:00:39.208228 => 14:00:39.211202
+[0m14:00:39.212053 [debug] [Thread-1 (]: Began executing node model.rag_pre_transform.single_string_winery_review_vector
+[0m14:00:39.254862 [debug] [Thread-1 (]: Writing runtime sql for node "model.rag_pre_transform.single_string_winery_review_vector"
+[0m14:00:39.255965 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:00:39.256589 [debug] [Thread-1 (]: On model.rag_pre_transform.single_string_winery_review_vector: /* {"app": "dbt", "dbt_version": "1.5.3", "profile_name": "rag_pre_transform", "target_name": "dev", "node_id": "model.rag_pre_transform.single_string_winery_review_vector"} */
+
+
+  create or replace view `iamtests-315719`.`fivetran_demo_rag_agriculture`.`single_string_winery_review_vector`
+  OPTIONS()
+  as WITH stg AS (
+       SELECT CONCAT('This winery name is ', IFNULL(WINERY_OR_VINEYARD, ' Name is not known')
+        , '. California wine region: ', IFNULL(CA_WINE_REGION, 'unknown'), ''
+        , ' The AVA Appellation is the ', IFNULL(AVA_APPELLATION_SUB_APPELLATION, 'unknown'), '.'
+        , ' The website associated with the winery is ', IFNULL(WEBSITE, 'unknown'), '.'
+        , ' Price Range: ', IFNULL(PRICE_RANGE, 'unknown'), '.'
+        , ' Tasting Room Hours: ', IFNULL(TASTING_ROOM_HOURS, 'unknown'), '.'
+        , ' Are Reservations Required or Not: ', IFNULL(RESERVATION_REQUIRED, 'unknown'), '.'
+        , ' Winery Description: ', IFNULL(WINERY_DESCRIPTION, 'unknown'), ''
+        , ' The Primary Varietals this winery offers: ', IFNULL(PRIMARY_VARIETALS, 'unknown'), '.'
+        , ' Thoughts on the Tasting Room Experience: ', IFNULL(TASTING_ROOM_EXPERIENCE, 'unknown'), '.'
+        , ' Amenities: ', IFNULL(AMENITIES, 'unknown'), '.'
+        , ' Awards and Accolades: ', IFNULL(AWARDS_AND_ACCOLADES, 'unknown'), '.'
+        , ' Distance Travel Time considerations: ', IFNULL(DISTANCE_AND_TRAVEL_TIME, 'unknown'), '.'
+        , ' User Rating: ', IFNULL(USER_RATING, 'unknown'), '.'
+        , ' The Secondary Varietals for this winery: ', IFNULL(SECONDARY_VARIETALS, 'unknown'), '.'
+        , ' Wine Styles: ', IFNULL(WINE_STYLES, 'unknown'), '.'
+        , ' Events and Activities: ', IFNULL(EVENTS_AND_ACTIVITIES, 'unknown'), '.'
+        , ' Sustainability Practices: ', IFNULL(SUSTAINABILITY_PRACTICES, 'unknown'), '.'
+        , ' Social Media Channels: ', IFNULL(SOCIAL_MEDIA, 'unknown'), ''
+        , ' Address: ', IFNULL(ADDRESS, 'unknown'), ''
+        , ' City: ', IFNULL(CITY, 'unknown'), ''
+        , ' State: ', IFNULL(STATE, 'unknown'), ''
+        , ' ZIP: ', IFNULL(ZIP, 'unknown'), ''
+        , ' Phone: ', IFNULL(PHONE, 'unknown'), ''
+        , ' Winemaker: ', IFNULL(WINEMAKER, 'unknown'), ''
+        , ' Did Kelly Kohlleffel recommend this winery?: ', IFNULL(KELLY_KOHLLEFFEL_RECOMMENDED, 'unknown'), ''
+    ) AS winery_information FROM `iamtests-315719.fivetran_demo_rag_agriculture.california_wine_country_visits`
+)
+
+
+            SELECT winery_information
+            -- snowflake.cortex.embed_text('e5-base-v2', winery_information) as WINERY_EMBEDDING 
+            FROM stg;
+
+
+[0m14:00:40.448989 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=iamtests-315719&j=bq:US:47335e12-796a-40f1-8618-755bd56dc06a&page=queryresults
+[0m14:00:40.468020 [debug] [Thread-1 (]: Timing info for model.rag_pre_transform.single_string_winery_review_vector (execute): 14:00:39.212380 => 14:00:40.467583
+[0m14:00:40.469159 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '88ddfbaa-62f5-48d8-aeb1-0534f9ba9c99', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef896ea7d0>]}
+[0m14:00:40.469921 [info ] [Thread-1 (]: 1 of 1 OK created sql view model fivetran_demo_rag_agriculture.single_string_winery_review_vector  [[32mCREATE VIEW (0 processed)[0m in 1.26s]
+[0m14:00:40.470769 [debug] [Thread-1 (]: Finished running node model.rag_pre_transform.single_string_winery_review_vector
+[0m14:00:40.472751 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:00:40.473113 [debug] [MainThread]: Connection 'model.rag_pre_transform.single_string_winery_review_vector' was properly closed.
+[0m14:00:40.473485 [info ] [MainThread]: 
+[0m14:00:40.473944 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 3.21 seconds (3.21s).
+[0m14:00:40.474930 [debug] [MainThread]: Command end result
+[0m14:00:40.483277 [info ] [MainThread]: 
+[0m14:00:40.483829 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:00:40.484266 [info ] [MainThread]: 
+[0m14:00:40.484823 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m14:00:40.485647 [debug] [MainThread]: Command `dbt run` succeeded at 14:00:40.485499 after 5.61 seconds
+[0m14:00:40.486120 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef883709d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef8cb68ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef8da312a0>]}
+[0m14:00:40.486599 [debug] [MainThread]: Flushing usage events

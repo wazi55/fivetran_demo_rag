@@ -25,10 +25,10 @@ WITH stg AS (
         , ' Phone: ', IFNULL(PHONE, 'unknown'), ''
         , ' Winemaker: ', IFNULL(WINEMAKER, 'unknown'), ''
         , ' Did Kelly Kohlleffel recommend this winery?: ', IFNULL(KELLY_KOHLLEFFEL_RECOMMENDED, 'unknown'), ''
-    ) AS winery_information FROM california_wine_country_visits;
+    ) AS winery_information FROM `iamtests-315719.fivetran_demo_rag_agriculture.california_wine_country_visits`
 )
 
 
-            SELECT winery_information, 
-            snowflake.cortex.embed_text('e5-base-v2', winery_information) as WINERY_EMBEDDING 
-            FROM stg;
+            SELECT winery_information
+            -- snowflake.cortex.embed_text('e5-base-v2', winery_information) as WINERY_EMBEDDING 
+            FROM stg
