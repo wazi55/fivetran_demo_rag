@@ -81,7 +81,7 @@ with stg as  (
             ''
         ) AS winery_information
     FROM
-        `'{{ env_var("PROJECT") }}'.'{{ env_var("DATASET") }}'.'{{ env_var("TABLE") }}'`
+        `'{{ env_var("DBT_PROJECT") }}'.'{{ env_var("DBT_DATASET") }}'.'{{ env_var("DBT_TABLE") }}'`
 ) 
 SELECT
     *
