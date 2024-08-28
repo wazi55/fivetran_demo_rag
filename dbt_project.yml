@@ -25,3 +25,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   +path: models
+vars:
+  PROJECT: 'default_value'
+  DATASET: '2024-01-01'
+  TABLE: 'US'
