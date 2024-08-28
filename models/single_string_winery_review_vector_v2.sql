@@ -87,7 +87,7 @@ SELECT
     *
 FROM
     ML.GENERATE_TEXT_EMBEDDING(
-        MODEL `{{ env_var("DBT_MODEL_PROJECT") }}.{{ env_var("DBT_EMBEDDING_MODEL") }}`,
+        MODEL `{{ env_var("DBT_MODEL_DATASET") }}.{{ env_var("DBT_EMBEDDING_MODEL") }}`,
         -- MODEL `project_beyondsql_genai_textembedding.llm_embedding_model`,
         (
             select
